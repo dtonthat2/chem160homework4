@@ -24,4 +24,4 @@ for i in range(ntrials):
     wins[index]=wins[index] +1
 winpercent=[x/ntrials for x in wins]
 for i in range (0,53):
-    print("%2d"%(i*2), "%5.2f" %(winpercent[i]))
+    print("%3d"%(i*2), "%5.2f" %(winpercent[i]))
